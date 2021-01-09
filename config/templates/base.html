@@ -1,0 +1,265 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Services</title>
+
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<body>
+
+  <div class="page animated" style="animation-duration: 500ms;">
+    <header class="section page-header" id="main">
+      <div class="rd-navbar-wrap" style="height: 85px;">
+        <nav class="rd-navbar rd-navbar-classic header-border rd-navbar-original rd-navbar-static">
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!--RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!--RD Navbar Toggle-->
+                <button class="rd-navbar-toggle toggle-original"
+                  data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!--RD Navbar Brand-->
+                <div class="rd-navbar-brand">
+                  <a class="brand" href=""><img class="brand-logo-dark" src='{% static "img/logo.png" %}' alt=""
+                      width="136" height="18"><img class="brand-logo-light"
+                      src="{% static 'img/logo-inverse-271x37.png'%}" alt="" width="135" height="18"></a>
+                </div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap toggle-original-elements">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#main">Главная</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Сервис</a><span class=""></span>
+                    </li>
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="#prices">Цены</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Контакты</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#booking">Бронировать</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="bg-fixed bg-img-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5 col-lg-6 col-md-8 inset-2 text-xs-center">
+            <div class="banner banner__mod bg-primary-variant-1">
+              <div class="banner_cnt">
+                <h2><span class="normal d-inprice-item-block">Перевозка в </span>
+                  аэропорт
+                  </h2>
+              </div>
+            </div>
+            <div class="image-wrap-2"><img src="{% static 'img/салом.jpg'%}" alt="">
+            </div>
+          </div>
+        </div>
+        <a href="#booking">
+          <input type="button" value="Забронировать" class="main-btn" >
+        </a>
+      </div>
+    </section>
+
+    <section class="section exp well-2 well-2--inset-1 text-xs-center">
+      <div class="container">
+        <div class="row row-60">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3><span class="text-primary">Обширный</span><br><span class="normal">опыт</span></h3><img
+              src="{% static 'img/road.jpg' %}" alt="">
+            <p>
+              Наш опыт позволяет нам гарантировать точные и регулярные перевозки.
+              Мы вернем Вам деньги за авиабилеты, если Вы опоздаете на рейс по нашей вине.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3><span class="normal">Трансфер в</span><br><span class="text-primary">аэропорт</span></h3><img
+              src="{% static 'img/трансфер.jpg'%}" alt="">
+            <p>
+              Трансфер наша основная услуга, стаж в которой у нас более 13 лет.
+              За это время никто из наших клиентов не опоздал на свой рейс.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3><span class="text-primary">Безопасность</span><br><span class="normal">перевозки</span></h3><img
+              src="{% static 'img/Безопасность.jpg'%}" alt="">
+            <p>
+              Вас везут опытные водители на современных микроавтобусах Mercedes 2018 года выпуска.
+              Вы можете расслабиться и сберечь силы и нервы для других вложений.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-fixed bg-img-6">
+      <div class="container">
+        <div class="row no-gutters justify-content-lg-between">
+          <div class="col-lg-4 col-md-6 text-center text-lg-left">
+            <div class="banner bg-contrast-variant-2">
+              <div class="banner_cnt">
+                <h2>Стаж <br><span class="normal">более 13 лет</span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center text-lg-left">
+            <div class="banner bg-default">
+              <div class="banner_cnt">
+                <h2><span class="text-primary">Wi-Fi Internet</span><br><span class="normal">Бесплатный доступ</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters justify-content-lg-center offset-0">
+          <div class="col-lg-4 col-md-12 text-center text-lg-left">
+            <div class="banner bg-primary-variant-1">
+              <div class="banner_cnt">
+                <h2>Климат<br><span class="normal">кондиционер пледы</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services bg-fixed bg-fixed__mod bg-img-2 well-3">
+      <div class="container text-default" id="services">
+        <h3 class="text-default">Наши преимущества</h3>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <p>Огромный опыт в грузоперевозках</p>
+            <p>
+              Уже более 15 лет мы возим людей. За это время не произошло ни одного дорожно транспортного происшествия.
+
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <p>Непередоваемое удобство</p>
+            <p>
+              Для вашего удобства сделано очень много. Мы закупили подушки под голову, пледы, установили телевизоры, wi-fi
+              и USB-разьёмы по периметру автомобиля.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <p>Невероятный уровень безопасности</p>
+            <p>
+              Наши водители - лучшие. Это люди с огромным стажем вождения, которые за всё это время не получали даже штрафов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section prices df jc-sb" id="prices">
+      <div class="left w-50 bg-img-2"></div>
+      <div class="right w-50">
+        <h2>Цены на трансфер</h2>
+        <div class="price-list">
+          <div class="price-item header df jc-sb">
+            <p>Наименование</p>
+            <p>бел.руб.</p>
+          </div>
+          {% for dir in directions %}
+          <div class="price-item df jc-sb">
+            <p><span>{{ dir.get_city_display }} - аэропорт {{ dir.get_airport_display}}</span> {% if dir.is_child %}детский{% endif %}</p>
+            <p>{{ dir.price }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="section well-2">
+      <div class="container">
+        <h3 class="text-primary">Отзывы</h3>
+        <h3 class="normal">Клиентов</h3>
+        <div class="row row-40 offset-top-1">
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <blockquote class="quote">
+              <q>
+                Огромное спасибо за замечательный сервис, теперь пользуюсь только вашими услугами!
+              </q>
+              <cite class="heading-6">Александр Пироган, Клиент</cite>
+            </blockquote>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <blockquote class="quote">
+              <q>
+                Благодарность, доехали без происшествий, очень удобные сиденья.
+              </q>
+              <cite class="heading-6">Дмитрий Кохановский, Клиент</cite>
+            </blockquote>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.9s; animation-name: fadeInUp;">
+            <blockquote class="quote">
+              <q>
+                Я - Лёха, и мне нравится эта компания!
+              </q>
+              <cite class="heading-6">Алексей Янковский, Клиент</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section form " id="booking">
+      <div class="container">
+        {% block content %}
+        {% endblock %}
+      </div>
+      <script src="{% static 'js/form.js' %}"></script>
+    </section>
+
+    <footer class="section footer-classic">
+      <div class="container text-center text-lg-left">
+        <div class="column jc-sa">
+          <div class="row jc-sa kontakti">
+            <h2>Контакты</h2>
+            <h2>Контакты</h2>
+            <h2>Контакты</h2>
+          </div>
+          <ul class="as-c contacts-items">
+            <div class="contacts-item df jc-sb">
+              <h5>A1</h5><a href="tel:+375 29 330 4133">
+                <h5>+375 29 330 4133</h5>
+              </a>
+            </div>
+            <div class="contacts-item df jc-sb">
+              <h5>Viber</h5><a href="tel:+375 29 330 4133">
+                <h5>+375 29 330 4133</h5>
+              </a>
+            </div>
+            <div class="contacts-item df jc-sb">
+              <h5>WhatsApp</h5><a href="tel:+375 29 330 4133">
+                <h5>+375 29 330 4133</h5>
+              </a>
+            </div>
+
+          </ul>
+          <p class="rights-reserve as-c">@all rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>

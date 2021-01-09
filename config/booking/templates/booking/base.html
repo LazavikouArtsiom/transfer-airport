@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content%}
+    <form id="contactForm" method="post" class='leave-comment'>
+        {% csrf_token %}
+        {{ booking_form.as_p }}
+        <input name="submit" id="submit" class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4 w-size25" value="Бронировать" type="submit">
+    </form>  
+{% endblock %}
